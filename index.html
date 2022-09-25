@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/globalStyles.css" />
+    <link rel="stylesheet" href="./pages/home/style.css" />
+    <link rel="stylesheet" href="./styles/modalStyle.css">
+    <title>TechPosters - Home</title>
+  </head>
+  <body>
+    <header class="navbar">
+      <img src="./assets/img/logo.svg" alt="Logo" />
+      <button class="normal-button">Sair</button>
+    </header>
+      <div class="top">
+      <section id="post-place ">
+        <ul class="user-card">
+          <li class="user-data">
+            <img class="user-img" src="./assets/img/user1.svg" alt="" />
+            <span>
+            <h1>Samuel Leão<h1>
+            <p>Front end Engineer</p>
+          </span>
+          </li>
+        </ul>
+        <div class="post-area">
+        <input type="text" class="posting" name="post-title" id="post-title" placeholder="Digitar título do post">
+        <input type="text" class="posting" name="post-description" id="post-description"
+        placeholder="Digitar descrição do post">
+        <button class="post-button" type="submit">Postar</button>
+        </div>
+      </section>
+      <section id="suggestions">
+        <h1>
+          Sugestões para você seguir 
+        </h1>
+        <ul class="suggestions-list">
+        </ul>
+      </section>
+    </div>
+    <main>
+      <section id="publications">
+        <h1>Posts</h1>
+        <ul class="publications-list">
+        </ul>
+      </section>
+    </main>
+  </body>
+  <script src="./script/database/users.js"></script>
+  <script src="./script/database/posts.js"></script>
+  <script src="./script/database/sugestUsers.js"></script>
+  <script src="./pages/home/index.js"></script>
+  <script src="./script/database/modal.js"></script>
+</html>
+
