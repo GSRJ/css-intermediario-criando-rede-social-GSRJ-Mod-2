@@ -29,6 +29,9 @@
 }
 
 .modal-close {
+  position: absolute;
+  top:1rem;
+  left:18rem;
   cursor: pointer;
   border: none;
   width: 2rem;
