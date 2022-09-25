@@ -91,33 +91,41 @@
     padding: 1rem 1.5rem 0rem 1.5rem;
     margin-bottom: 3rem;
   }
-  .top {
-    display: flex;
-    justify-content: space-between;
+  #post-place{
+    display: inline-block;
+    width: 60%;
   }
-  .post-area{
-    width: 700px;
+  .post-area {
+    width: 100%
   }
 
-#suggestions{
-  position: fixed;
-  left: 65%;
-  width: 100%;
-  height: 100%;
-}
-.suggestions-list {
-  margin-top: 2rem;
-  display: flex;
-  flex-direction: column;
-  overflow: auto;
-}
-.position-bt {
-  position: relative;
-  margin-top: 0;
-  left: 250px;
-  top: -20px;
-}
-#publications{
-  max-width: 700px;
-}
+  #suggestions {
+    display: inline-block;
+    position: sticky;
+    top: 6rem;
+    width: 35%;
+    height: 100%;
+  }
+
+  .suggestions-list {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+  }
+  
+  .position-bt {
+    position: relative;
+    margin-top: 0;
+    left: 250px;
+    top: -20px;
+  }
+  #publications {
+    max-width: 60%;
+  }
+  .publication-text {
+    max-height: 2.3rem;
+    overflow: hidden;
+  }
 }

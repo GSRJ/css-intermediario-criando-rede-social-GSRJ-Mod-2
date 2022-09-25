@@ -28,7 +28,7 @@ ul {
   list-style: none;
 }
 
-section {
+section, aside {
   padding: 0rem 1.5rem 0rem 1.5rem;
   margin-bottom: 3rem;
 }
