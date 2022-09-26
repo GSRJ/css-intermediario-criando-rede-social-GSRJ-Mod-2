@@ -1,0 +1,29 @@
+/* SECTION POST  */
+.post-area {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: end;
+  }
+  .posting {
+    width: 100%;
+    border: 2px solid var(--color-grey-4);
+    border-radius: 0.25rem;
+  }
+  .posting::placeholder {
+    color: var(--color-grey-3);
+    padding-left: 1.25rem;
+  }
+  #post-title {
+    height: 3.25rem;
+  }
+  
+  #post-description {
+    height: 8.125rem;
+  }
+  
+  #post-description::placeholder {
+    position: relative;
+    bottom: 40px;
+  }
+  

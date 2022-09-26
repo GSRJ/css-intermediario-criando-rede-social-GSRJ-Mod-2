@@ -46,85 +46,6 @@
   margin: 2rem 0rem 2rem 0rem;
 }
 
-/*BUTTONS*/
-.normal-button {
-  cursor: pointer;
-  color: var(--color-white-fixed);
-  width: 5.75rem;
-  height: 2.37rem;
-  background: var(--color-grey-1);
-  border: 2px solid #212529;
-  border-radius: 0.25rem;
-}
-
-.like-img {
-  width: 22.76px;
-  height: 20px;
-}
-
-.position-bt {
-  position: relative;
-  top: 0.9rem;
-  right: 4.5rem;
-  padding: 0.3rem 0.3rem 0.3rem 0.3rem;
-  margin-top: 1.5rem;
-  font-weight: 600;
-  font-family: var(--font-family-1);
-  border-radius: 0.2rem;
-  font-size: 0.8rem;
-}
-
-.follow-bt{
-  border: 1px solid;
-  background-color: var(--color-white-fixed);
-}
-.followed-bt{
-  color: var(--color-white-fixed);
-  background-color: var(--color-brand1);
-  border: none; 
-}
-
-
-
-/* SECTION POST  */
-.post-area {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  align-items: end;
-}
-.posting {
-  width: 100%;
-  border: 2px solid var(--color-grey-4);
-  border-radius: 0.25rem;
-}
-.posting::placeholder {
-  color: var(--color-grey-3);
-  padding-left: 1.25rem;
-}
-#post-title {
-  height: 3.25rem;
-}
-
-#post-description {
-  height: 8.125rem;
-}
-
-#post-description::placeholder {
-  position: relative;
-  bottom: 40px;
-}
-
-.post-button {
-  width: 4.3rem;
-  height: 2.3rem;
-  font-weight: 600;
-  color: var(--color-grey-3);
-  line-height: 17px;
-  position: relative;
-  border: none;
-  border-radius: 0.25rem;
-}
 
 /* SECTION SUGGESTION FRIENDS*/
 #suggestions {
@@ -186,9 +107,8 @@
 
   .position-bt {
     position: relative;
-    margin-top: 0;
-    left: 250px;
-    top: -20px;
+    top: -3rem;
+    left: 15rem;
   }
 
   /*SECTION PUBLICATIONS*/
